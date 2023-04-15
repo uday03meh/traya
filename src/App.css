@@ -1,0 +1,13 @@
+.App {
+  min-height: 100vh;
+  background-color: #cde07a;
+}
+#root {
+  padding: 0;
+  margin:0;
+}
+
+html, body  {
+  margin:0;
+  padding:0;
+}

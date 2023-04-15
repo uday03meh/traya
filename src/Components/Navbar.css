@@ -1,0 +1,23 @@
+.Navbar {
+    background-color:#9bba70;
+    color: white;
+    width:100%;
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+    justify-content: space-between;
+    height:90px;
+}
+
+.exit {
+    color:white;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+a {
+    margin:55px;
+    text-decoration: none;
+}
