@@ -1,8 +1,35 @@
 .Schedule {
     display: flex;
-    width:100vh;
     margin:auto;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #333;
     align-items: center;
 }
+
+.Schedule h1 {
+    margin:40px auto;
+    font-size: 2.6em;
+}
+
+.schedule-btn {
+    background-color: #9bba70;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    font-size:20px;
+    font-weight: 600;
+    border-radius: 7px;
+
+    cursor: pointer;
+  }
+  
+  .schedule-btn:hover {
+    background-color: #b7d340;
+  }
+    
+    .schedule-btn:active {
+      background-color: #000;
+    }
+  
