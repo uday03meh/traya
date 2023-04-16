@@ -14,15 +14,15 @@ const Form = () => {
             id="name"
             placeholder="Full Name"
             required='required'
-            autoFocus
+
           />
-          <input type="email" placeholder="Email" required='required' autoFocus />
+          <input type="email" placeholder="Email" required='required' />
           <input
             type="number"
             className="phone"
             placeholder="Phone No."
             required='required'
-            autoFocus
+
             maxLength="10"
             onInput={(e) => {
               e.target.value = Math.max(0, parseInt(e.target.value))
