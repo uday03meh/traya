@@ -9,23 +9,24 @@ const Form = () => {
       <h1>Book A Doctor Consultant</h1>
       <h3>Please share your details</h3>
       <div className="fields">
+      <form>
           <input
             type="text"
             id="name"
             placeholder="Full Name"
-            required='required'
+            required
             autoFocus
-          />
-          <input type="email"
-                 placeholder="Email"
-                 required='required'     
+          /> 
+          <input
+            type="email"
+            placeholder="Email"
+            required={true}
           />
           <input
             type="number"
             className="phone"
             placeholder="Phone No."
-            required='required'
-
+            required
             maxLength="10"
             onInput={(e) => {
               e.target.value = Math.max(0, parseInt(e.target.value))
@@ -33,10 +34,12 @@ const Form = () => {
                 .slice(0, 10);
             }}
           />
-      </div>
-      <Link to="/schedule">
-        <button className="book-a-call-btn btn">Schedule A Call</button>
+          <Link to="/schedule">
+        <button type='submit' className="book-a-call-btn btn">Schedule A Call</button>
       </Link>
+          </form>
+      </div>
+      
     </div>
   );
 };
