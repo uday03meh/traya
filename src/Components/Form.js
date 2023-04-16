@@ -9,20 +9,19 @@ const Form = () => {
       <h1>Book A Doctor Consultant</h1>
       <h3>Please share your details</h3>
       <div className="fields">
-        <Form>
           <input
             type="text"
             id="name"
             placeholder="Full Name"
-            required
+            required='required'
             autoFocus
           />
-          <input type="email" placeholder="Email" required autoFocus />
+          <input type="email" placeholder="Email" required='required' autoFocus />
           <input
             type="number"
             className="phone"
             placeholder="Phone No."
-            required
+            required='required'
             autoFocus
             maxLength="10"
             onInput={(e) => {
@@ -31,7 +30,6 @@ const Form = () => {
                 .slice(0, 10);
             }}
           />
-        </Form>
       </div>
       <Link to="/schedule">
         <button className="book-a-call-btn btn">Schedule A Call</button>

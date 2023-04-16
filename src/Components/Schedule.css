@@ -32,3 +32,11 @@
 .schedule-btn:active {
     background-color: #000;
 }
+
+.time-date {
+    margin:40px auto;
+    display: flex;
+    flex-direction: column;
+    font-size:1.5em;
+    gap:30px;
+}
