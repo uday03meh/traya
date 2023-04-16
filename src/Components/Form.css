@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  text-align: center;
   color: #444;
   gap: 20px;
   justify-content: center;
@@ -23,9 +24,10 @@
 
 
 .Form h3 {
-  font-size: 2em;
+  font-size: 1.4em;
   margin: 10px 20px;
   padding: 0px 25px;
+  text-transform: uppercase;
 }
 
 input {
@@ -43,8 +45,8 @@ input:active {
 
 input:focus {
   background-color: #fff;
-  outline-color: #252729;
-  outline-width: 3px;
+  outline-color: #90a72b;
+  outline-width: 4px;
 }
 
 .btn {
@@ -74,3 +76,13 @@ input:focus {
   -webkit-appearance: none;
   margin: 0;
 }
+
+@media screen and (max-width: 500px){
+  .Form h1 {
+      font-size: 2em; 
+    }
+    .Form h3 {
+      font-size: 1em;
+    }
+    
+    }

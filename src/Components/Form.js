@@ -16,7 +16,10 @@ const Form = () => {
             required='required'
             autoFocus
           />
-          <input type="email" placeholder="Email" required='required' />
+          <input type="email"
+                 placeholder="Email"
+                 required='required'     
+          />
           <input
             type="number"
             className="phone"

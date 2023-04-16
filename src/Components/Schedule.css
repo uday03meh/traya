@@ -40,3 +40,8 @@
     font-size:1.5em;
     gap:30px;
 }
+
+.Schedule input {
+    padding:20px;
+    font-family: monospace;
+}

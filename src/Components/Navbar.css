@@ -24,3 +24,16 @@ a {
     margin: 45px;
     text-decoration: none;
 }
+
+@media screen and (max-width: 500px){
+    .Navbar .exit {
+        font-size: 1.2em;
+    }
+      .Navbar {
+        display: flex;
+        justify-content: space-between;
+      }
+      .Navbar a {
+        margin: 20px;
+      }
+      }
