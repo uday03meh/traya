@@ -14,7 +14,7 @@ const Form = () => {
             id="name"
             placeholder="Full Name"
             required='required'
-
+            autoFocus
           />
           <input type="email" placeholder="Email" required='required' />
           <input
