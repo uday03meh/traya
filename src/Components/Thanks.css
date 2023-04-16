@@ -3,67 +3,67 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:65%;
-    margin:auto;    
+    width: 65%;
+    margin: auto;
     padding: 50px;
     font-family: 'Poppins', sans-serif;
-  }
-  .Thanks {
+}
+
+.Thanks {
     background-color: #f5f5f5;
-    margin:auto;    
+    margin: auto;
     color: #333;
     height: 100vh;
-  }
-  
-  .thanks-page h1 {
+}
+
+.thanks-page h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #0b8457;
+    color: #b6d442;
     text-align: center;
-  }
-  
-  .thanks-page p {
+}
+
+.thanks-page p {
     font-size: 24px;
     margin-bottom: 40px;
     text-align: center;
-  }
+}
 
-  .thanks-btn {
+.thanks-btn {
     background-color: #9bba70;
     color: #fff;
     border: none;
     padding: 15px 20px;
-    font-size:20px;
+    font-size: 20px;
     font-weight: 600;
     border-radius: 7px;
 
     cursor: pointer;
-  }
-  
-  .thanks-btn:hover {
-    background-color: #b7d340;
-  }
-    
-    .thanks-btn:active {
-      background-color: #000;
-    }
-  
+}
 
-  @media only screen and (max-width: 768px) {
+.thanks-btn:hover {
+    background-color: #b7d340;
+}
+
+.thanks-btn:active {
+    background-color: #000;
+}
+
+
+@media only screen and (max-width: 768px) {
     .thanks-page {
-      padding: 30px;
-      height: auto;
+        padding: 30px;
+        height: auto;
     }
-  
+
     .thanks-page h1 {
-      font-size: 28px;
-      margin-bottom: 10px;
+        font-size: 28px;
+        margin-bottom: 10px;
     }
-  
+
     .thanks-page p {
-      font-size: 20px;
-      margin-bottom: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
-  
-  }
-  
+
+}
